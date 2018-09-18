@@ -22,3 +22,13 @@ if (a**2 + b**2 == c**2):
     
 else:
     print("This is NOT a right triangle")
+    
+#Compute the length of the hypotenuse and then return the result in a print statement.
+a = float(input("Please enter the length of side a: "))
+b = float(input("Please enter the length of side b: "))
+
+c_squared = a**2 + b**2
+
+c = c_squared**0.5
+
+print("The length of hypotenuse is", c)
